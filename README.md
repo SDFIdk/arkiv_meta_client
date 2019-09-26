@@ -3,6 +3,8 @@ Test klient til arkivmeta og arkivkort API. Klienten kan benyttes som inspiratio
 
 Applikationen er skrevet i Php. Der anvendes diverse eksterne libraries fx [jQuery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/) og [OpenSeadragon](https://openseadragon.github.io/). Alle libraries er lagret lokalt.
 
+**[Demo app](https://apps.kortforsyningen.dk/arkivkort/)**
+
 ## Beskrivelse af filer og mapper
 * **index.php** - forsiden af applikationen. Her vælger brugeren kriterier til søgning.
 * **viewSearchResult.php** - viser brugeren resultatet af en søgning. I praksis foretages søgningen vha. et AJAX kald til getSearchResult.php, som vil returnere JSON med info for hvert kort, der er indeholdt i søgeresultatet. Hvert søgeresultat vil vises inkl. et link til viewImage.php?id=XXX hvor XXX er kortets unikke id.
