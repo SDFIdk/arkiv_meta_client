@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-smooth: always;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 60px;
+}
+
+#logo {
+    color: #000;
+    padding: 5px 0 5px 5px;
+}
+#logo svg {
+    height: 100%;
+    width: 50px;
+}
+#logo svg .o1 {
+    opacity: 0.2;
+}
+#logo svg .o2 {
+    opacity: 0.25;
+}
+#logo svg .o3 {
+    opacity: 0.3;
+}
+#logo svg .o4 {
+    opacity: 0.4;
+}
+#logo svg .o5 {
+    opacity: 0.55;
+}
+#logo svg .o6 {
+    opacity: 0.7;
+}
+#logo svg .o7 {
+    opacity: 0.85;
+}
+#logo svg .f1 {
+    fill: #1E1E1E;
+}
+#logo svg .f2 {
+    fill: #0097A7;
+}
+#logo svg .f3 {
+    fill: #000;
+}
+#logo span {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 10px;
+}
+.panel {
+    cursor: pointer;
+}
+#linkList {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+}
+#linkList svg {
+    line-height: 1;
+    vertical-align: middle;
+}
+#openseadragon {
+    width: 100%;
+    height: 600px;
+}
+footer {
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+footer .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+label .small {
+    font-weight: normal;
+}
+
+#openseadragon {
+    border: 1px solid #CCC;
+}
+
+.wktlink {
+    margin-right: 10px;
+}
+.btn-primary {
+    min-width: 100px;
+}
