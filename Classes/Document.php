@@ -7,10 +7,9 @@ class Document
     private $description;
     private $keywords;
 
-    public function __construct($title, $description = null, $keywords = null)
+    public function __construct($title = "Arkivdata", $description = null, $keywords = null)
     {
-        $this->appName = "Arkivdata";
-        $this->title = $title;
+        $this->appName = $this->title = $title;
         $this->description = (isset($description) ? $description : $this->appName);
         $this->keywords = (isset($keywords) ? $keywords : $this->appName);
         $this->canonicalPageUrl = $_SERVER['HTTP_HOST'] . $_SERVER["REQUEST_URI"];
@@ -23,6 +22,11 @@ class Document
         <html lang="da" prefix="og: http://ogp.me/ns#" itemscope itemtype="https://schema.org/WebPage">
             <?php $this->generateDocumentHeadHTML($jsResources, $cssResources); ?>
             <body>
+                <span id="forkongithub">
+                    <a href="https://github.com/Kortforsyningen/arkiv_meta_client/fork">
+                        Fork on Github
+                    </a>
+                </span>
                 <?php $this->generateNavbarHTML(); ?>
                 <main class="container-fluid">
     <?php

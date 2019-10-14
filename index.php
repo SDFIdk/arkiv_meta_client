@@ -49,17 +49,43 @@
         $msg[] = "Kunne ikke hente data fra " . $proxy->getUrl();
     }
 
-    $document = new Document("Arkivdata");
+    $document = new Document("Arkivkort - Test site");
 
     $document->generateDocumentStartHTML(
         ["js/bootstrap-select-1.12.4/bootstrap-select.min.js"],
-        ["css/bootstrap-select-1.12.4/bootstrap-select.min.css"]
+        ["css/bootstrap-select-1.12.4/bootstrap-select.min.css","css/forkongithub.css"]
     );
     
     ?>
     <div class="row">
         <div class="col-md-12">
-            <h1>Arkivdata</h1>
+            <br>
+            <p>&nbsp;</p>
+            <p>
+                Dette website er udviklet i forbindelse med testen af det REST API der levere historiske kort.
+                <br />
+                <a href="https://docs.kortforsyningen.dk/" target="_blank" rel="noopener">
+                    https://docs.kortforsyningen.dk/
+                </a>
+            </p>
+            <p>
+                Vi kan ikke garantere at alle informationer eller funktionaliteter fra API'et er tilgængelige på websitet.
+                <br />
+                Websitet repræsentere ikke SDFE's officielle udstilling af historiske kort og kan blive lukket ned uden varsel.
+            </p>
+            <p>
+                I 2020 vil SDFE udvikle et officielt website til fremfinding af historiske kort og forskellige typer af protokoller som fx. sogneprotokoller, matrikelprotokoller m.fl.
+                <br />Det nye website vil på sigt erstatte historiske kort på nettet
+                <a title="Historiske kort på nettet" href="https://hkpn.gst.dk/" target="_blank" rel="noopener">
+                    https://hkpn.gst.dk/
+                </a>
+            </p>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Arkivkort</h1>
         </div>
     </div>
     <form action="viewSearchResult.php" method="get" autocomplete="off">
