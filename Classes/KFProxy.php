@@ -7,6 +7,7 @@ class KFProxy
     private $headers;
     private $host;
     
+    private static $hostWhitelist = ["https://services.kortforsyningen.dk/"];
 
     public function __construct($url = null)
     {
@@ -45,6 +46,10 @@ class KFProxy
 
     public function getData() 
     {
+        if (!$this->urlHostIsWhitelisted()) {
+            throw new Error("URL not whitelisted");
+        }
+
         $curl = curl_init();
         curl_setopt_array($curl, [
             CURLOPT_URL => $this->url,
@@ -59,6 +64,10 @@ class KFProxy
     
     public function postData($params) 
     {
+        if (!$this->urlHostIsWhitelisted()) {
+            throw new Error("URL not whitelisted");
+        }
+
         //$fp = fopen(dirname(__FILE__).'/errorlog.txt', 'w');
         $curl = curl_init();
         curl_setopt_array($curl, [
@@ -74,5 +83,16 @@ class KFProxy
         $data = json_decode(curl_exec($curl), true);
         curl_close($curl);
         return $data;
+    }
+
+    public function urlHostIsWhitelisted()
+    {
+        foreach (KFProxy::$hostWhitelist as $host) {
+            if (substr($this->url, 0, strlen($host)) === $host) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
