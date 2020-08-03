@@ -23,7 +23,7 @@ class Document
             <?php $this->generateDocumentHeadHTML($jsResources, $cssResources); ?>
             <body>
                 <span id="forkongithub">
-                    <a href="https://github.com/Kortforsyningen/arkiv_meta_client/fork">
+                    <a href="https://github.com/dataforsyningen/arkiv_meta_client/fork">
                         Fork on Github
                     </a>
                 </span>
