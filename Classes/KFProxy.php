@@ -7,7 +7,7 @@ class KFProxy
     private $headers;
     private $host;
     
-    private static $hostWhitelist = ["https://services.kortforsyningen.dk/", "http://services.kortforsyningen.dk/", "https://test-service.kortforsyningen.dk/", "http://test-service.kortforsyningen.dk/"];
+    private static $hostWhitelist = ["https://services.kortforsyningen.dk/", "http://services.kortforsyningen.dk/", "https://test-service.kortforsyningen.dk/", "http://test-service.kortforsyningen.dk/", "https://api.dataforsyningen.dk/", "http://api.dataforsyningen.dk/"];
 
     public function __construct($url = null)
     {
