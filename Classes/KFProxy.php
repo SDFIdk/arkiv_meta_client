@@ -12,7 +12,7 @@ class KFProxy
     public function __construct($url = null)
     {
         //$this->host = "https://test-service.kortforsyningen.dk";
-        $this->host = "https://services.kortforsyningen.dk";
+        $this->host = "https://api.dataforsyningen.dk";
         $this->url = isset($url) ? $url : null;
         $this->token = "InsertKortforsyningenTokenHere";
         $this->headers = [
