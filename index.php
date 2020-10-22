@@ -62,7 +62,7 @@
             <br>
             <p>&nbsp;</p>
             <p>
-                Dette website er udviklet i forbindelse med testen af det REST API der levere historiske kort.
+                Dette website er udviklet i forbindelse med testen af det REST API der leverer historiske kort.
                 <br />
                 <a href="https://docs.kortforsyningen.dk/" target="_blank" rel="noopener">
                     https://docs.kortforsyningen.dk/
@@ -71,10 +71,10 @@
             <p>
                 Vi kan ikke garantere at alle informationer eller funktionaliteter fra API'et er tilgængelige på websitet.
                 <br />
-                Websitet repræsentere ikke SDFE's officielle udstilling af historiske kort og kan blive lukket ned uden varsel.
+                Websitet repræsenterer ikke SDFE's officielle udstilling af historiske kort og kan blive lukket ned uden varsel.
             </p>
             <p>
-                I 2020 vil SDFE udvikle et officielt website til fremfinding af historiske kort og forskellige typer af protokoller som fx. sogneprotokoller, matrikelprotokoller m.fl.
+                I 2021 vil SDFE udvikle et officielt website til fremfinding af historiske kort og forskellige typer af protokoller som fx. sogneprotokoller, matrikelprotokoller m.fl.
                 <br />Det nye website vil på sigt erstatte historiske kort på nettet
                 <a title="Historiske kort på nettet" href="https://hkpn.gst.dk/" target="_blank" rel="noopener">
                     https://hkpn.gst.dk/
