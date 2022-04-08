@@ -1,5 +1,6 @@
 # arkiv_meta_client
-Test klient til arkivmeta og arkivkort API. Klienten kan benyttes som inspiration hvis du ønsker at udvikle en klient oven på API'et. API dokumentation 
+Test klient til arkivmeta og arkivkort API. Klienten kan benyttes som inspiration hvis du ønsker at udvikle en klient oven på API'et.
+Vi garantere ikke at demoen virker 100%
 
 Applikationen er skrevet i Php. Der anvendes diverse eksterne libraries fx [jQuery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/) og [OpenSeadragon](https://openseadragon.github.io/). Alle libraries er lagret lokalt.
 
@@ -14,3 +15,6 @@ Applikationen er skrevet i Php. Der anvendes diverse eksterne libraries fx [jQue
 * **/fonts** - indeholder Font Awesome filer
 * **/js** - indeholder diverse eksterne JavaScript moduler fx jQuery, Bootstrap, diverse Bootstrap udvidelser, OpenSeadragon
 * **/Classes** - indeholder diverse hjælpeklasser fx cURL kald til Kortforsyningen/Arkiv API samt opbygning af HTML5 dokument
+
+The real deal findes her
+https://historiskekort.dk/
