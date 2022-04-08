@@ -16,5 +16,5 @@ Applikationen er skrevet i Php. Der anvendes diverse eksterne libraries fx [jQue
 * **/js** - indeholder diverse eksterne JavaScript moduler fx jQuery, Bootstrap, diverse Bootstrap udvidelser, OpenSeadragon
 * **/Classes** - indeholder diverse hjælpeklasser fx cURL kald til Kortforsyningen/Arkiv API samt opbygning af HTML5 dokument
 
-The real deal findes her
+## The real deal findes her
 https://historiskekort.dk/
